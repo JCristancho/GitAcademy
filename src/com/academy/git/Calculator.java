@@ -9,9 +9,9 @@ public class Calculator {
         int number1 = 7;
         int number2 = 4;
 
-        int sum = sum(number1, number2);
+        int div = div(number1, number2);
         System.out.println("The sum of " + number1 + " and " +
-                number2 + " equals: " + sum);
+                number2 + " equals: " + div);
     }
 
     public static int sum(int num1, int num2) {
@@ -27,6 +27,11 @@ public class Calculator {
 	public static int mul(int num1, int num2) {
 
         return num1 * num2;
+    }
+	
+	public static int div(int num1, int num2) {
+
+        return num1 / num2;
     }
 	
 }
