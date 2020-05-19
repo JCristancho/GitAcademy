@@ -28,5 +28,11 @@ public class Calculator {
 
         return num1 * num2;
     }
-	
+
+    public static int per(int value, int num2) {
+        int percent;
+
+        percent = value * (num2/100)
+        return percent;
+    }
 }
