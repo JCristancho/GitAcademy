@@ -28,5 +28,12 @@ public class Calculator {
 
         return num1 * num2;
     }
-	
+
+	//Natalia Mateus
+    public static double squareRoot(int num1) {
+
+       double root_num1 = Math.sqrt(num1);
+       return root_num1;
+
+    }
 }
