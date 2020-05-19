@@ -1,5 +1,7 @@
 package com.academy.git;
 
+import java.lang.Math; 
+
 public class Calculator {
 
     public static void main(String[] args) {
@@ -27,6 +29,11 @@ public class Calculator {
 	public static int mul(int num1, int num2) {
 
         return num1 * num2;
+    }
+	
+	public static int pow(int num1, int num2) {
+
+        return Math.pow(num1,num2);
     }
 	
 }
