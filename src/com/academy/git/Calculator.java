@@ -28,5 +28,8 @@ public class Calculator {
 
         return num1 * num2;
     }
-	
+    
+        public static int div(int n1, int n2) {
+        return n1 / n2;
+   }
 }
