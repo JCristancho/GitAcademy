@@ -12,7 +12,6 @@ public class Calculator {
         int sum = sum(number1, number2);
         System.out.println("The sum of " + number1 + " and " +
                 number2 + " equals: " + sum);
-    }
 
     public static int sum(int num1, int num2) {
 
@@ -27,6 +26,11 @@ public class Calculator {
 	public static int mul(int num1, int num2) {
 
         return num1 * num2;
+    }
+
+    public static int exp(int num1, int num2){
+
+        return Math.exp(num1,num2);
     }
 	
 }
