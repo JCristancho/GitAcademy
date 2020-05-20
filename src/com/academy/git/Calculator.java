@@ -7,7 +7,7 @@ public class Calculator {
         System.out.println("Si no están estos cambios hay tabla!");
 
         int number1 = 7;
-        int number2 = 4;
+        int number2 = 5;
 
         int sum = sum(number1, number2);
         System.out.println("The sum of " + number1 + " and " +
