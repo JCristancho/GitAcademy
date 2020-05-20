@@ -28,5 +28,9 @@ public class Calculator {
 
         return num1 * num2;
     }
+	public static double raiz(double num1) {
+
+        return Math.sqrt(num1);
+    }
 	
 }
